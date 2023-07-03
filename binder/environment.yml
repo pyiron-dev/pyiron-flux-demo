@@ -5,4 +5,4 @@ dependencies:
 - pyiron_atomistics =0.3.0
 - flux-core
 - lammps
-- pydantic<2
+- pydantic <2
