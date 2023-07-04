@@ -1,2 +1,6 @@
+# jupyter kernel 
+mkdir /home/jovyan/.local/share/jupyter/kernels/
+cp binder/kernel.json /home/jovyan/.local/share/jupyter/kernels/
+
 # pyiron setup
 printf "[DEFAULT]\nTOP_LEVEL_DIRS = ${HOME}\nRESOURCE_PATHS = ${HOME}/resources" > ${HOME}/.pyiron
